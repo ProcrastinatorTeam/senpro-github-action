@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from 'next/head' // Import komponen untuk mengatur <head> (title, 
+import Image from 'next/image' // import komponen untuk atur image
+import { Inter } from '@next/font/google'// import untuk atur font
+import styles from '@/styles/Home.module.css'//import untuk atur style
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -30,7 +30,7 @@ export default function Home() {
 
         <div>
           <h5 className={inter.className}>
-            [Nama] | [NIU]
+            [Desi D Simamora] | [514990]
           </h5>
         </div>
       </main>
