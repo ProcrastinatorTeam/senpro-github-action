@@ -1,7 +1,7 @@
-import Head from 'next/head' // Import komponen untuk mengatur <head> (title, 
-import Image from 'next/image' // import komponen untuk atur image
-import { Inter } from '@next/font/google'// import untuk atur font
-import styles from '@/styles/Home.module.css'//import untuk atur style
+import Head from 'next/head' 
+import Image from 'next/image' 
+import { Inter } from '@next/font/google'
+import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
